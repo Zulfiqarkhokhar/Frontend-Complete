@@ -1,0 +1,16 @@
+#### React ####
+React is a free and open source JavaScript library specifically designed for building user interfaces
+
+#### Component ####
+A component is a peace of the UI that has its own logic and appearance. A component can be samll as a button or large as entire page.
+
+#### JSX ####
+JSX allows us to write HTML in React
+JSX makes it easier to write and add HTML in React.
+
+#### Expression in JSX ####
+With JSX you can write expressions inside curly braces. The expressions can be a react varribale, or property, or any other valid JavaScript expression.
+JSX will execute the expression and return the result.
+
+#### Lists ####
+In React, you will render lists with some type of loop. The javascript map() array method is generally the preferred method.
