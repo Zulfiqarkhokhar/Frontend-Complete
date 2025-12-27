@@ -14,3 +14,13 @@ JSX will execute the expression and return the result.
 
 #### Lists ####
 In React, you will render lists with some type of loop. The javascript map() array method is generally the preferred method.
+
+#### Props ####
+Props/ Properties are arguments passed into react components.
+Props allows us to pass data from parent component to child component.
+Props are passed to components via HTML attributes.
+
+#### Conditional Rendering ####
+Conditional Rendering allows us to dynamically display different UI components
+or content based on specific conditions. This enables us to create more
+interactive and responsive user experiences.
