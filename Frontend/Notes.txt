@@ -24,3 +24,17 @@ Props are passed to components via HTML attributes.
 Conditional Rendering allows us to dynamically display different UI components
 or content based on specific conditions. This enables us to create more
 interactive and responsive user experiences.
+
+#### State ####
+State is a way to store and manage the data that can change over
+time and affects how the component renders. We define state using
+the useState Hook, which allows you to set an initial value and provides a way to update that state.
+
+#### Hooks ####
+Hooks are new addition in React 16.8.
+They let you use state and other React features without writing class.
+
+#### useState() ####
+useSate Hook allows us to track state in a functional component.
+State generally refers to data or Properties that need to be 
+tracking in an application.
