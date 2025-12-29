@@ -38,3 +38,31 @@ They let you use state and other React features without writing class.
 useSate Hook allows us to track state in a functional component.
 State generally refers to data or Properties that need to be 
 tracking in an application.
+
+#### Portal ####
+Portal is a feature that allows you to render a child component into
+a DOM node that exists outside the hierarchy of the parent component.
+This can be usful for the scenarios like modals, tooltips, or dropdowns,
+where you wnat to break out the usual parent-child structure and render
+in a different part of the DOM.
+
+#### useEffect() ####
+useEffect Hook allows us to perform side effects in our components.
+Some examples of side effects are: fetching data, directly updating the DOM etc.
+
+#### Prop Drilling ####
+Prop drilling in React.js is a situation where you pass data (props) from a
+parent component to a deeply nested child component through multiple intermediate components,
+even if those middle components don’t need the data.
+
+#### Context API ####
+Context API is a feature that allows you to manage and share state across your component tree
+without having to pass props down manually at every level.
+It's usefel for the scenarios where you need to share data or functions
+across manay component, especially when these components are deeply nested.
+
+#### useContext() ####
+useContext Hook allows us to access the context values provided by
+a context object directly within a functional component.
+Context provides a way to pass data through the component
+tree without having to pass props down manually at every level.
